@@ -184,16 +184,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-nightingales-rose-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/datasets-nightingales-rose-cli
 
-[test-image]: https://github.com/stdlib-js/datasets-nightingales-rose/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/datasets-nightingales-rose/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/datasets-nightingales-rose@v0.1.0/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/datasets-nightingales-rose@v0.1.0/actions/workflows/test.yml?query=branch:v0.1.0
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-nightingales-rose/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/datasets-nightingales-rose?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-nightingales-rose@v0.1.0/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/datasets-nightingales-rose@v0.1.0?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-nightingales-rose.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/datasets-nightingales-rose/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-nightingales-rose@v0.1.0.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/datasets-nightingales-rose@v0.1.0/main
 
 -->
 
@@ -204,17 +204,17 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/datasets-nightingales-rose#cli
-[cli-url]: https://github.com/stdlib-js/datasets-nightingales-rose/tree/cli
-[@stdlib/datasets-nightingales-rose]: https://github.com/stdlib-js/datasets-nightingales-rose/tree/main
+[cli-section]: https://github.com/stdlib-js/datasets-nightingales-rose@v0.1.0#cli
+[cli-url]: https://github.com/stdlib-js/datasets-nightingales-rose@v0.1.0/tree/cli
+[@stdlib/datasets-nightingales-rose]: https://github.com/stdlib-js/datasets-nightingales-rose@v0.1.0/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/datasets-nightingales-rose/tree/deno
-[umd-url]: https://github.com/stdlib-js/datasets-nightingales-rose/tree/umd
-[esm-url]: https://github.com/stdlib-js/datasets-nightingales-rose/tree/esm
-[branches-url]: https://github.com/stdlib-js/datasets-nightingales-rose/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/datasets-nightingales-rose@v0.1.0/tree/deno
+[umd-url]: https://github.com/stdlib-js/datasets-nightingales-rose@v0.1.0/tree/umd
+[esm-url]: https://github.com/stdlib-js/datasets-nightingales-rose@v0.1.0/tree/esm
+[branches-url]: https://github.com/stdlib-js/datasets-nightingales-rose@v0.1.0/blob/main/branches.md
 
 [nightingale]: https://en.wikipedia.org/wiki/Florence_Nightingale
 
