@@ -57,6 +57,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-nightingales-rose/tags). For example,
+
+```javascript
 import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@v0.1.0-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ var data = rose();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@v0.1.0-deno/mod.js';
+import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@deno/mod.js';
 
 var scalar;
 var data;
