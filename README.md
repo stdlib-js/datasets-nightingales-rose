@@ -50,14 +50,31 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/datasets-nightingales-rose
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@deno/mod.js';
+var rose = require( '@stdlib/datasets-nightingales-rose' );
 ```
 
 #### rose()
@@ -91,7 +108,7 @@ var data = rose();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@deno/mod.js';
+var rose = require( '@stdlib/datasets-nightingales-rose' );
 
 var scalar;
 var data;
@@ -115,7 +132,74 @@ console.dir( data );
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use as a general utility, install the CLI package globally
+
+```bash
+npm install -g @stdlib/datasets-nightingales-rose-cli
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: nightingales-rose [options]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+         --format fmt          Output format: 'csv' or 'ndjson'.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="notes">
+
+### Notes
+
+-   The CLI supports two output formats: comma-separated values ([CSV][csv]) and newline-delimited JSON ([NDJSON][ndjson]). The default output format is [CSV][csv].
+
+</section>
+
+<!-- /.notes -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ nightingales-rose
+date,army_size,disease,wounds,other
+1854-04-01T07:00:00.000Z,8571,1,0,5
+1854-05-01T07:00:00.000Z,23333,12,0,9
+1854-06-01T07:00:00.000Z,28333,11,0,6
+...
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 * * *
 
@@ -154,7 +238,7 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -166,7 +250,7 @@ For more information on the project, filing bug reports and feature requests, an
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
