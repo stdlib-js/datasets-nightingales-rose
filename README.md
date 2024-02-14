@@ -57,7 +57,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@deno/mod.js';
+import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@v0.2.0-deno/mod.js';
 ```
 
 #### rose()
@@ -91,7 +91,7 @@ var data = rose();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@deno/mod.js';
+import rose from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-nightingales-rose@v0.2.0-deno/mod.js';
 
 var scalar;
 var data;
