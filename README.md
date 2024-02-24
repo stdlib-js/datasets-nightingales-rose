@@ -50,95 +50,17 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/datasets-nightingales-rose
-```
 
-Alternatively,
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
 
-</section>
-
-<section class="usage">
-
-## Usage
-
-```javascript
-var rose = require( '@stdlib/datasets-nightingales-rose' );
-```
-
-#### rose()
-
-Returns dataset for [Florence Nightingale][nightingale]'s famous [polar area diagram][polar-area-diagram].
-
-```javascript
-var data = rose();
-/* returns
-    [
-        {
-            'date': '1854-04-01T07:00:00.000Z',
-            'army_size': 8571,
-            'disease': 1,
-            'wounds': 0,
-            'other': 5
-        },
-        ...
-    ]
-*/
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="examples">
-
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var rose = require( '@stdlib/datasets-nightingales-rose' );
-
-var scalar;
-var data;
-var d;
-var i;
-
-data = rose();
-
-// As done by Nightingale, calculate the average annual mortality per 1000 for each cause. See http://understandinguncertainty.org/node/214.
-for ( i = 0; i < data.length; i++ ) {
-    d = data[ i ];
-    scalar = 1000.0 * 12.0 / d.army_size;
-    d.disease *= scalar;
-    d.wounds *= scalar;
-    d.other *= scalar;
-}
-console.dir( data );
-```
-
-</section>
-
-<!-- /.examples -->
-
-* * *
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -156,7 +78,7 @@ npm install -g @stdlib/datasets-nightingales-rose-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: nightingales-rose [options]
@@ -172,19 +94,11 @@ Options:
 
 <!-- /.usage -->
 
-<section class="notes">
 
-### Notes
-
--   The CLI supports two output formats: comma-separated values ([CSV][csv]) and newline-delimited JSON ([NDJSON][ndjson]). The default output format is [CSV][csv].
-
-</section>
-
-<!-- /.notes -->
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ nightingales-rose
@@ -227,6 +141,11 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 <section class="related">
 
+## See Also
+
+-   <span class="package-name">[`@stdlib/datasets-nightingales-rose`][@stdlib/datasets-nightingales-rose]</span><span class="delimiter">: </span><span class="description">dataset for Nightingale's famous polar area diagram.</span>
+
+
 </section>
 
 <!-- /.related -->
@@ -244,7 +163,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -262,8 +181,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-nightingales-rose.svg
-[npm-url]: https://npmjs.org/package/@stdlib/datasets-nightingales-rose
+[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-nightingales-rose-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/datasets-nightingales-rose-cli
 
 [test-image]: https://github.com/stdlib-js/datasets-nightingales-rose/actions/workflows/test.yml/badge.svg?branch=v0.2.1
 [test-url]: https://github.com/stdlib-js/datasets-nightingales-rose/actions/workflows/test.yml?query=branch:v0.2.1
