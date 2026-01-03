@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2026-01-03)
 
 <section class="features">
 
@@ -20,9 +20,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589)
+[#6574](https://github.com/stdlib-js/stdlib/issues/6574), [#6589](https://github.com/stdlib-js/stdlib/issues/6589), [#9464](https://github.com/stdlib-js/stdlib/issues/9464)
 
 </section>
 
@@ -34,6 +34,8 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`33ce408`](https://github.com/stdlib-js/stdlib/commit/33ce4082725bbb85c660b4ffeb276774778ef0a8) - **docs:** fix broken Markdown link [(#9493)](https://github.com/stdlib-js/stdlib/pull/9493) _(by Suyash Pathak, Athan Reines)_
+-   [`c894b66`](https://github.com/stdlib-js/stdlib/commit/c894b664661bfb87286304b24dd5a1758ae482b7) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`a468fa8`](https://github.com/stdlib-js/stdlib/commit/a468fa85dd5a0bdf9bb98fd27fca221cac2cc465) - **feat:** add `every`, `includes`, `unaryAccumulate`, and `unaryReduceSubarray` to namespace [(#6605)](https://github.com/stdlib-js/stdlib/pull/6605) _(by Pravesh Kunwar)_
 
 </details>
@@ -46,9 +48,12 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Philipp Burckhardt
 -   Pravesh Kunwar
+-   Suyash Pathak
 
 </section>
 

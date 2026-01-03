@@ -252,7 +252,7 @@ For more information on the project, filing bug reports and feature requests, an
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -278,8 +278,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -304,7 +304,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [polar-area-diagram]: https://en.wikipedia.org/wiki/Polar_area_diagram
 
-[@nightingale:1859a]: https://curiosity.lib.harvard.edu/contagion/catalog/36-990101646750203941
+[@nightingale:1859a]: https://id.lib.harvard.edu/curiosity/contagion/36-990101646750203941
 
 [csv]: https://tools.ietf.org/html/rfc4180
 
