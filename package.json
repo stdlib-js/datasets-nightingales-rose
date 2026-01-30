@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/datasets-nightingales-rose",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Dataset for Nightingale's famous polar area diagram.",
   "license": "Apache-2.0",
   "author": {
@@ -44,7 +44,7 @@
   "dependencies": {
     "@stdlib/cli-ctor": "^0.2.2",
     "@stdlib/fs-read-file": "^0.2.2",
-    "@stdlib/fs-read-json": "^0.2.2",
+    "@stdlib/fs-read-json": "^0.2.3",
     "@stdlib/streams-node-stdout": "^0.2.2",
     "@stdlib/utils-copy": "^0.2.2"
   },
